@@ -52,7 +52,7 @@
   async function sendShare() { 
    const result = await liff.shareTargetPicker([{
         "type": "flex",
-        "altText": "(ข้อความ Notice)",
+        "altText": "โอนให้แล้วนะ",
     "type": "flex",
     "contents": {
   "type": "bubble",
@@ -121,7 +121,7 @@
         "action": {
           "type": "uri",
           "label": "กดแชร์ที่นี้เลย",
-          "uri": "https://linecorp.com"
+          "uri": "https://liff.line.me/1656988511-ZVQM4WVg"
         },
         "gravity": "top"
       },
@@ -159,7 +159,7 @@
     }
     async function main() {
       await liff.init({
-        liffId: "1656969222-3n4KmQ5B"
+        liffId: "1656988511-ZVQM4WVg"
       })
       if (!liff.isLoggedIn()) {
         liff.login()
